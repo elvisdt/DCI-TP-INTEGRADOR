@@ -1,4 +1,5 @@
 # ---- KiCad: temporales, backups y cachés ----
+.history/
 *-backups/
 *.kicad_prl
 *.lck

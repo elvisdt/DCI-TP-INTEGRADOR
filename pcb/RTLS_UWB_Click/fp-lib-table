@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RTLS_UWB_Click")(type "KiCad")(uri "${KIPRJMOD}/lib/RTLS_UWB_Click.pretty")(options "")(descr "Huellas propias o descargadas del proyecto"))
+)

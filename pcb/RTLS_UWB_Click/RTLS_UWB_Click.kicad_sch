@@ -2,9 +2,155 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid e910a4d7-6fd7-4f96-b138-5c89a5f4dffc)
+	(uuid "e910a4d7-6fd7-4f96-b138-5c89a5f4dffc")
 	(paper "A4")
+	(title_block
+		(title "RTLS UWB Click - réplica")
+		(date "2026-11-01")
+		(rev "v0.1")
+		(company "CESE-FIUBA - DCI 2026")
+		(comment 1 "Autor: Elvis De la Torre")
+		(comment 2 "Basado en RTLS UWB Click v1.01 (MikroE)")
+	)
 	(lib_symbols)
+	(sheet
+		(at 205.74 85.09)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "55d50477-bdb0-44f1-9fe4-438048b0955b")
+		(property "Sheetname" "30_interface"
+			(at 205.74 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/30_interface.kicad_sch"
+			(at 205.74 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTLS_UWB_Click"
+				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 83.82)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6408b3b3-edbe-42fc-ba21-58e3c4983790")
+		(property "Sheetname" "10_Power"
+			(at 58.42 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/10_power.kicad_sch"
+			(at 58.42 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTLS_UWB_Click"
+				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 82.55)
+		(size 29.21 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e49b128f-96d3-4246-8222-dbf610465491")
+		(property "Sheetname" "20_UWB_module"
+			(at 128.27 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sheets/20_uwb_module.kicad_sch"
+			(at 128.27 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RTLS_UWB_Click"
+				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

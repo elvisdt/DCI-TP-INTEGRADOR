@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RTLS_UWB_Click")(type "KiCad")(uri "${KIPRJMOD}/lib/RTLS_UWB_Click.kicad_sym")(options "")(descr "Símbolos propios o descargados del proyecto"))
+)
