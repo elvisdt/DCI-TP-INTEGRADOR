@@ -5,8 +5,8 @@
 **Placa de referencia:** RTLS UWB Click (MIKROE-6863), HW rev. 1.01, de MikroElektronika.
 Se basa en el módulo Qorvo **DWM3001C**, que integra el transceptor UWB DW3110, el SoC BLE nRF52833, el acelerómetro LIS2DH12 y la antena UWB.
 
-**Alcance propuesto:** réplica casi fiel de la placa. La única modificación es **eliminar el bloque ClickID** (U1 DS28E36BQ, U2 74LVC1G3157, R2, R3, C1). Por lo tanto, la línea CS del mikroBUS va directo a `CS_HOST` del módulo.
-El objetivo es estudiar y reproducir un diseño comercial bien resuelto (RF/antena, carga de batería Li-ion, USB-C, regulación) sin introducir cambios grandes.
+**Alcance propuesto:** réplica de la placa. El objetivo es rediseñarla como base para su uso en el trabajo final de la Especialización en Sistemas Embebidos (CESE-FIUBA).
+Como modificación inicial respecto del original, se elimina el circuito ClickID (U1 DS28E36BQ, U2 74LVC1G3157, R2, R3, C1), por lo que la línea CS del mikroBUS va directo a `CS_HOST` del módulo.
 
 ### Fuentes ###
 * Página del producto: https://www.mikroe.com/rtls-uwb-click
