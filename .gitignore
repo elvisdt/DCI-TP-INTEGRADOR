@@ -1,0 +1,24 @@
+# ---- KiCad: temporales, backups y cachés ----
+*-backups/
+*.kicad_prl
+*.lck
+~*.lck
+fp-info-cache
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+
+# ---- Salidas de reglas / chequeos (se regeneran) ----
+*-drc.rpt
+*-erc.rpt
+*.rpt
+
+# ---- Sistema operativo / editores ----
+.DS_Store
+Thumbs.db
+.vscode/
