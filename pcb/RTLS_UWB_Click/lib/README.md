@@ -8,3 +8,5 @@ Símbolos, huellas y modelos 3D que no están en las bibliotecas oficiales de Ki
 
 | Componente | Símbolo | Huella | 3D | Origen | Verificado contra hoja de datos |
 |---|---|---|---|---|---|
+| MC34671AEPR2 (NXP, U4) | ✔ | `DFN200X300X65-9N` | ✔ | SnapMagic (SnapEDA) | Pendiente |
+| DWM3001C (Qorvo, U3) | ✔ | `XCVR_DWM3001C` (con keepout de antena) | — | SnapMagic (SnapEDA) | Pendiente |
