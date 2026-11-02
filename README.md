@@ -8,10 +8,11 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Este diseño de hardware se distribuye bajo la licencia **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)**. El texto completo está en el archivo [LICENSE](LICENSE).
+
+Para este diseño, la "fuente" en el sentido de la licencia son los archivos del proyecto KiCad del directorio [pcb](pcb) (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb` y las bibliotecas propias de `pcb/RTLS_UWB_Click/lib`).
+
+El diseño está basado en la placa RTLS UWB Click de MikroElektronika. Las hojas de datos, imágenes y archivos CAD de terceros de los directorios [info](info) y [doc/propuesta](doc/propuesta) pertenecen a sus respectivos autores y no están alcanzados por esta licencia.
 
 ## Estructura del repositorio ##
 
