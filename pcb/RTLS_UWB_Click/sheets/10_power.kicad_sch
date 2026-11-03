@@ -4867,7 +4867,7 @@
 		)
 		(uuid "eb38732b-9765-4614-8c8d-d955edd76c3f")
 	)
-	(label "USB_D+"
+	(label "USB_P"
 		(at 100.33 57.15 0)
 		(effects
 			(font
@@ -4887,7 +4887,7 @@
 		)
 		(uuid "fc308e3a-ec41-4fb7-9f22-3144b7e55d17")
 	)
-	(label "USB_D-"
+	(label "USB_N"
 		(at 100.33 54.61 0)
 		(effects
 			(font
