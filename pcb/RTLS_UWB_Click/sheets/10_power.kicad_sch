@@ -4867,15 +4867,29 @@
 		)
 		(uuid "eb38732b-9765-4614-8c8d-d955edd76c3f")
 	)
-	(label "USB_P"
+	(global_label "USB_P"
+		(shape bidirectional)
 		(at 100.33 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "f55a4f62-6243-4a0d-a59c-9f7dbe3f2415")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "USB_D-"
 		(at 80.01 54.61 180)
@@ -4887,18 +4901,32 @@
 		)
 		(uuid "fc308e3a-ec41-4fb7-9f22-3144b7e55d17")
 	)
-	(label "USB_N"
+	(global_label "USB_N"
+		(shape bidirectional)
 		(at 100.33 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "fd16fce1-c40d-4cd7-8616-462fac486942")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
-		(lib_id "INCLI-VA:GND_VEH")
+		(lib_id "power:GND")
 		(at 90.17 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -4919,7 +4947,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_VEH"
+		(property "Value" "GND"
 			(at 90.17 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4975,7 +5003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "INCLI-VA:GND_VEH")
+		(lib_id "power:GND")
 		(at 73.66 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -4996,7 +5024,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_VEH"
+		(property "Value" "GND"
 			(at 73.66 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +5635,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "VCC"
 			(at 179.07 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6439,7 +6467,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "3V3_LDO"
 			(at 232.41 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6839,7 +6867,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30.1K"
+		(property "Value" "18K"
 			(at 219.71 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6977,7 +7005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "INCLI-VA:GND_VEH")
+		(lib_id "power:GND")
 		(at 92.71 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -6998,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_VEH"
+		(property "Value" "GND"
 			(at 92.71 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88b99871-453d-431f-a43e-ebf16ff137d2")
-		(property "Reference" "U102"
+		(property "Reference" "U103"
 			(at 204.47 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7382,7 +7410,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/6408b3b3-edbe-42fc-ba21-58e3c4983790"
-					(reference "U102")
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -7756,7 +7784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "INCLI-VA:GND_VEH")
+		(lib_id "power:GND")
 		(at 34.29 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -7777,7 +7805,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_VEH"
+		(property "Value" "GND"
 			(at 34.29 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9454,7 +9482,7 @@
 		)
 	)
 	(symbol
-		(lib_id "INCLI-VA:GND_VEH")
+		(lib_id "power:GND")
 		(at 116.84 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -9475,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Value" "GND_VEH"
+		(property "Value" "GND"
 			(at 116.84 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
