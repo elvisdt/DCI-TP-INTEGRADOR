@@ -9952,7 +9952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm"
 			(at 54.61 129.54 0)
 			(hide yes)
 			(show_name no)
