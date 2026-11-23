@@ -224,7 +224,7 @@
 	)
 	(text "UART con el host"
 		(exclude_from_sim no)
-		(at 165.1 86.36 0)
+		(at 172.466 87.122 0)
 		(effects
 			(font
 				(size 1 1)
@@ -233,9 +233,9 @@
 		)
 		(uuid "173a7702-9c31-4f30-a04b-74c70dc01067")
 	)
-	(text "Notas\n• Las alimentaciones (VUSB, +5V, 3V3, 3V3_LDO y GND) se conectan entre hojas con símbolos de alimentación; por los pines de los bloques solo pasan señales.\n• Cambio respecto de la placa original: se quitó el circuito ClickID, así que la línea CS del mikroBUS llega directo al DWM3001C."
+	(text "Notas\n• Las alimentaciones pasan entre hojas con símbolos de alimentación.\n• Sin circuito ClickID: CS va directo al DWM3001C."
 		(exclude_from_sim no)
-		(at 31.496 156.718 0)
+		(at 66.548 157.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -246,7 +246,7 @@
 	)
 	(text "Reset y botón MAIN"
 		(exclude_from_sim no)
-		(at 165.1 78.74 0)
+		(at 171.45 79.756 0)
 		(effects
 			(font
 				(size 1 1)
@@ -257,7 +257,7 @@
 	)
 	(text "LEDs de estado"
 		(exclude_from_sim no)
-		(at 165.1 93.98 0)
+		(at 172.466 94.488 0)
 		(effects
 			(font
 				(size 1 1)
@@ -268,7 +268,7 @@
 	)
 	(text "SPI desde el mikroBUS"
 		(exclude_from_sim no)
-		(at 165.1 60.96 0)
+		(at 169.672 61.722 0)
 		(effects
 			(font
 				(size 1 1)
@@ -279,7 +279,7 @@
 	)
 	(text "Interrupción al host"
 		(exclude_from_sim no)
-		(at 165.1 73.66 0)
+		(at 171.704 74.422 0)
 		(effects
 			(font
 				(size 1 1)
@@ -290,7 +290,7 @@
 	)
 	(text "USB 2.0 (D+ / D−)"
 		(exclude_from_sim no)
-		(at 87.63 60.96 0)
+		(at 91.948 61.468 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -299,7 +299,7 @@
 		)
 		(uuid "ab6a9c9c-8f7d-4e82-a6df-63c46a2601db")
 	)
-	(text "Fiduciales FID1–FID3 en la cara superior, donde van todos los componentes.\nH1: agujero de sujeción M2, agregado porque la placa original no tiene."
+	(text "Fiduciales en la cara superior.\nH1: agujero M2 (no está en la original)."
 		(exclude_from_sim no)
 		(at 185.42 148.59 0)
 		(effects
@@ -311,9 +311,9 @@
 		)
 		(uuid "c6f5d7b7-e3b6-4f3a-88c3-8a2f0f0152f1")
 	)
-	(text "Hojas del esquemático\n1. Raíz: diagrama de bloques y conexiones entre hojas\n2. 10_Power: entrada USB-C con protección ESD, selección de alimentación, cargador Li-ion y regulador de 3,3 V\n3. 20_UWB_module: módulo DWM3001C con sus capacitores de desacople, conector SWD y pads de prueba\n4. 30_interface: conector mikroBUS, LEDs (RGB de estado, RX/TX y encendido) y pulsadores RESET y MAIN"
+	(text "Hojas\n1. Raíz: diagrama de bloques\n2. 10_Power: USB-C, cargador Li-ion y LDO 3,3 V\n3. 20_UWB_module: módulo DWM3001C y SWD\n4. 30_interface: mikroBUS, LEDs y pulsadores"
 		(exclude_from_sim no)
-		(at 31.75 133.604 0)
+		(at 66.802 134.112 0)
 		(effects
 			(font
 				(size 1.27 1.27)

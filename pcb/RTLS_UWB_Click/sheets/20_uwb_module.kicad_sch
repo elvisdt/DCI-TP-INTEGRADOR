@@ -2116,7 +2116,7 @@
 		)
 		(uuid "f12a02bc-784e-486b-97d2-ef93734ebe45")
 	)
-	(text "El módulo trae la antena UWB integrada. Debajo de la antena no debe haber cobre:\nrespetar la zona libre que indica la hoja de datos del DWM3001C.\nEn la placa original, la antena queda fuera del borde del PCB."
+	(text "Sin cobre bajo la antena del módulo\n(zona libre según la hoja de datos)."
 		(exclude_from_sim no)
 		(at 100.33 134.62 0)
 		(effects
@@ -2152,7 +2152,7 @@
 		)
 		(uuid "3e7d6d35-8ece-42c9-9c98-34a85f2e10e1")
 	)
-	(text "SDA/SCL y NFC1/NFC2 van\nconectados según la hoja\nde datos del DWM3001C.\nEn el esquemático de MikroE\nfiguran invertidos."
+	(text "SDA/SCL y NFC1/NFC2 según\nla hoja de datos (en el\nesquema de MikroE están\ninvertidos)."
 		(exclude_from_sim no)
 		(at 241.046 110.49 0)
 		(effects
@@ -2164,7 +2164,7 @@
 		)
 		(uuid "665daecd-eabe-4496-b301-76e0bc78a9c4")
 	)
-	(text "Ubicar cada capacitor cerca del pin que desacopla:\nC201 a C204 (3V3_LDO) junto al pin 12 (VDD) de U201\nC205 a C207 (VUSB) junto al pin 18 (VUSB)"
+	(text "C201–C204 junto a VDD (pin 12)\nC205–C207 junto a VUSB (pin 18)"
 		(exclude_from_sim no)
 		(at 30.48 132.08 0)
 		(effects
@@ -3301,7 +3301,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18653221-4305-4276-afff-5be58297d188")
 		(property "Reference" "J201"
@@ -3346,7 +3346,40 @@
 				)
 			)
 		)
-		(property "Description" "Pads SWD 2x3 1.27mm (DNP)"
+		(property "Description" "Conector SWD 2x3 1.27mm (Samtec FTS)"
+			(at 240.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samtec"
+			(at 240.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "FTS-103-01-F-D"
+			(at 240.03 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "SAM11230-ND"
 			(at 240.03 72.39 0)
 			(hide yes)
 			(show_name no)

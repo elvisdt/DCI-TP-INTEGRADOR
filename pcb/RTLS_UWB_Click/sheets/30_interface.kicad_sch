@@ -2615,7 +2615,7 @@
 	)
 	(text "J301: 1 AN(NC) 2 RST 3 CS 4 SCK 5 CIPO 6 COPI 7 +3V3 8 GND"
 		(exclude_from_sim no)
-		(at 173.99 152.4 0)
+		(at 203.454 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +2638,7 @@
 	)
 	(text "J302: 1 PWM(NC) 2 INT 3 TX 4 RX 5 SCL(NC) 6 SDA(NC) 7 +5V 8 GND"
 		(exclude_from_sim no)
-		(at 173.99 154.94 0)
+		(at 203.454 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2671,9 +2671,9 @@
 		)
 		(uuid "98e4ac1a-c223-4273-bb40-f493da448162")
 	)
-	(text "Los LEDs PWR, RX y TX se alimentan con los 3,3 V del mikroBUS;\nel LED RGB de estado, con el regulador propio de la placa (3V3_LDO)."
+	(text "LEDs PWR, RX y TX: 3,3 V del mikroBUS\nLED RGB: 3V3_LDO"
 		(exclude_from_sim no)
-		(at 219.202 137.414 0)
+		(at 203.708 140.462 0)
 		(effects
 			(font
 				(size 1.27 1.27)
