@@ -2671,6 +2671,18 @@
 		)
 		(uuid "98e4ac1a-c223-4273-bb40-f493da448162")
 	)
+	(text "Los LEDs PWR, RX y TX se alimentan con los 3,3 V del mikroBUS;\nel LED RGB de estado, con el regulador propio de la placa (3V3_LDO)."
+		(exclude_from_sim no)
+		(at 219.202 137.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "b3103746-c148-4921-a043-ea47da4607bd")
+	)
 	(text "Status LED (RGB)"
 		(exclude_from_sim no)
 		(at 33.782 33.528 0)

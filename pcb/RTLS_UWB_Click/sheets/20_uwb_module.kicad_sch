@@ -2116,6 +2116,18 @@
 		)
 		(uuid "f12a02bc-784e-486b-97d2-ef93734ebe45")
 	)
+	(text "El módulo trae la antena UWB integrada. Debajo de la antena no debe haber cobre:\nrespetar la zona libre que indica la hoja de datos del DWM3001C.\nEn la placa original, la antena queda fuera del borde del PCB."
+		(exclude_from_sim no)
+		(at 100.33 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "0489dbdf-1b13-4a4b-87d8-9c78574e8905")
+	)
 	(text "Decoupling (VUSB / 3V3_LDO)"
 		(exclude_from_sim no)
 		(at 33.02 45.72 0)
@@ -2130,7 +2142,7 @@
 	)
 	(text "Test pads (NFC antenna, I2C)"
 		(exclude_from_sim no)
-		(at 215.9 109.22 0)
+		(at 216.662 105.156 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2139,6 +2151,30 @@
 			(justify left bottom)
 		)
 		(uuid "3e7d6d35-8ece-42c9-9c98-34a85f2e10e1")
+	)
+	(text "SDA/SCL y NFC1/NFC2 van\nconectados según la hoja\nde datos del DWM3001C.\nEn el esquemático de MikroE\nfiguran invertidos."
+		(exclude_from_sim no)
+		(at 241.046 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "665daecd-eabe-4496-b301-76e0bc78a9c4")
+	)
+	(text "Ubicar cada capacitor cerca del pin que desacopla:\nC201 a C204 (3V3_LDO) junto al pin 12 (VDD) de U201\nC205 a C207 (VUSB) junto al pin 18 (VUSB)"
+		(exclude_from_sim no)
+		(at 30.48 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "74aaa075-400e-4223-bbae-27ea93ef039a")
 	)
 	(text "SWD Debug Connector"
 		(exclude_from_sim no)

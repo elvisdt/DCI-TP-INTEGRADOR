@@ -3949,6 +3949,18 @@
 		)
 		(uuid "771210a6-71da-4d15-8f93-8f251848db6b")
 	)
+	(text "Salida del regulador:\nVout = 1,235 V × (1 + R106/R107) = 1,235 V × (1 + 30,1k/18k) ≈ 3,30 V"
+		(exclude_from_sim no)
+		(at 180.594 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "26df03a3-18d1-4386-b9af-b95f51605d46")
+	)
 	(text "3V3 LDO Regulator (SPX3819)"
 		(exclude_from_sim no)
 		(at 145.796 103.886 0)
@@ -3961,6 +3973,18 @@
 		)
 		(uuid "33cb24d4-337a-4fd6-83c2-35b62d335675")
 	)
+	(text "El USBLC6 (U102) está pensado para que D+ y D− pasen por debajo, entre los pines 1-6 y 3-4. Ubicarlo pegado a J101."
+		(exclude_from_sim no)
+		(at 24.892 91.186 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "492c0be7-f1eb-44c8-a09a-c862aea8764e")
+	)
 	(text "USB-C Input & ESD Protection"
 		(exclude_from_sim no)
 		(at 21.59 26.67 0)
@@ -3972,6 +3996,18 @@
 			(justify left bottom)
 		)
 		(uuid "5b66beb2-18de-4d49-b579-130690a56d5f")
+	)
+	(text "Con R105 = 4,7 kΩ el MC34671 carga a unos 545 mA\n(según las curvas de la hoja de datos, 4,27 kΩ equivale a 600 mA)."
+		(exclude_from_sim no)
+		(at 162.306 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "c59ea308-5d79-490b-9e8c-fb7ab3bf86a8")
 	)
 	(text "Power Flags (ERC)"
 		(exclude_from_sim no)
