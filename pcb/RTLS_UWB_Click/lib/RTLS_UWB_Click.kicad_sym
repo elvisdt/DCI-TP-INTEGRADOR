@@ -86,7 +86,7 @@
           (effects (font (size 1.016 1.016)))
         )
       )
-      (pin output line (at 17.78 -7.62 180.0) (length 5.08)
+      (pin power_out line (at 17.78 -7.62 180.0) (length 5.08)
         (name "BAT"
           (effects (font (size 1.016 1.016)))
         )

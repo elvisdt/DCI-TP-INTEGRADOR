@@ -3893,7 +3893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_PLCC-6"
 			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4019,7 +4019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4137,7 +4137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 243.84 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4251,7 +4251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 88.9 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4445,7 +4445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 60.96 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4717,7 +4717,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5135,7 +5135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6186,7 +6186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 233.68 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6703,7 +6703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 255.27 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6816,7 +6816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 200.66 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6930,7 +6930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7161,7 +7161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 109.22 170.18 0)
 			(hide yes)
 			(show_name no)

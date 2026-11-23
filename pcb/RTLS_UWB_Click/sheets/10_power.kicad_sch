@@ -2987,7 +2987,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "BAT"
@@ -4493,16 +4493,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 180.34) (xy 142.24 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dbdcf37-463d-4f4f-b443-714ebd2104e4")
-	)
-	(wire
-		(pts
 			(xy 90.17 49.53) (xy 90.17 46.99)
 		)
 		(stroke
@@ -5735,7 +5725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6065,7 +6055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 68.58 41.148 90)
 			(hide yes)
 			(show_name no)
@@ -7644,83 +7634,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 129.54 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7fbe7837-80cd-49dc-9497-63b1410e1e7b")
-		(property "Reference" "#PWR0118"
-			(at 129.54 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC-BAT"
-			(at 129.54 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 129.54 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1263051-3fdb-4000-bcaf-e5e9acd89e0c")
-		)
-		(instances
-			(project "RTLS_UWB_Click"
-				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/6408b3b3-edbe-42fc-ba21-58e3c4983790"
-					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 27.94 177.8 0)
 		(unit 1)
@@ -8982,7 +8895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 78.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9584,83 +9497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 142.24 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2984eee-d604-47df-9488-888f254b0429")
-		(property "Reference" "#FLG07"
-			(at 142.24 178.435 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 142.24 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 142.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "757847d8-da91-4ef5-a21f-359e49a943db")
-		)
-		(instances
-			(project "RTLS_UWB_Click"
-				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/6408b3b3-edbe-42fc-ba21-58e3c4983790"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 104.14 180.34 0)
 		(unit 1)
@@ -9848,7 +9684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
