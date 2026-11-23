@@ -2708,7 +2708,7 @@
 		(uuid "a802669f-7485-4a61-b3e7-c8f422c0abbc")
 	)
 	(junction
-		(at 200.66 43.18)
+		(at 189.23 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebcb9096-728f-450f-a166-bc5c2430a8cc")
@@ -2817,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 43.18) (xy 200.66 43.18)
+			(xy 182.88 43.18) (xy 189.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2867,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 43.18) (xy 223.52 43.18)
+			(xy 205.74 43.18) (xy 212.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 43.18) (xy 207.01 43.18)
+			(xy 189.23 43.18) (xy 195.58 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3087,7 +3087,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 43.18) (xy 223.52 45.72)
+			(xy 212.09 43.18) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3287,7 +3287,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 53.34) (xy 200.66 55.88)
+			(xy 189.23 53.34) (xy 189.23 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 200.66 43.18)
+			(xy 189.23 45.72) (xy 189.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3415,10 +3415,9 @@
 		)
 		(uuid "fb3d6ba4-0bba-46fa-b91c-f0bbfd1261e9")
 	)
-	(global_label "LED_GREEN"
-		(shape bidirectional)
+	(hierarchical_label "LED_GREEN"
+		(shape input)
 		(at 77.47 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3426,23 +3425,10 @@
 			(justify right)
 		)
 		(uuid "2aee7bd0-6d0d-453b-8d43-c9fb6b75c77c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "LED_BLUE"
-		(shape bidirectional)
+	(hierarchical_label "LED_BLUE"
+		(shape input)
 		(at 118.11 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3450,23 +3436,10 @@
 			(justify right)
 		)
 		(uuid "3094879e-9b92-4449-8e91-c02defe00e30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.11 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "CS"
-		(shape bidirectional)
+	(hierarchical_label "CS"
+		(shape output)
 		(at 204.47 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3474,23 +3447,10 @@
 			(justify right)
 		)
 		(uuid "3b083ad1-4fd7-4015-844f-0fbafc7bbaa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "TXD"
-		(shape bidirectional)
+	(hierarchical_label "TXD"
+		(shape input)
 		(at 246.38 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3498,23 +3458,10 @@
 			(justify left)
 		)
 		(uuid "4665b0aa-14db-4d57-8234-47e3a20ea457")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "SCK"
-		(shape bidirectional)
+	(hierarchical_label "SCK"
+		(shape output)
 		(at 204.47 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3522,23 +3469,10 @@
 			(justify right)
 		)
 		(uuid "4d13aa47-e11e-4852-8311-31ae75343fa8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "RXD"
-		(shape bidirectional)
+	(hierarchical_label "RXD"
+		(shape output)
 		(at 246.38 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3546,23 +3480,10 @@
 			(justify left)
 		)
 		(uuid "4dbb9cc9-64b2-44d2-9f23-3083b17801da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "TX_LED"
-		(shape bidirectional)
+	(hierarchical_label "TX_LED"
+		(shape input)
 		(at 97.79 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3570,23 +3491,10 @@
 			(justify right)
 		)
 		(uuid "527a910b-9063-4c9d-ad3d-c6e451388c3e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "IRQ"
-		(shape bidirectional)
+	(hierarchical_label "IRQ"
+		(shape input)
 		(at 246.38 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3594,23 +3502,10 @@
 			(justify left)
 		)
 		(uuid "92a60aa9-adab-461e-800a-8b1adf7dc85c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "RST"
+	(hierarchical_label "RST"
 		(shape bidirectional)
-		(at 194.31 43.18 180)
-		(fields_autoplaced yes)
+		(at 182.88 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3618,23 +3513,10 @@
 			(justify right)
 		)
 		(uuid "9363d8fc-8708-4d16-a979-ce910fc8150e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "LED_RED"
-		(shape bidirectional)
+	(hierarchical_label "LED_RED"
+		(shape input)
 		(at 34.29 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3642,23 +3524,10 @@
 			(justify right)
 		)
 		(uuid "94b8726a-830a-43aa-b4c8-39b239a47ac2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "RST"
+	(hierarchical_label "RST"
 		(shape bidirectional)
 		(at 204.47 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3666,23 +3535,10 @@
 			(justify right)
 		)
 		(uuid "9759747d-0f82-4284-a4b5-4a64f4501eb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "SDI"
-		(shape bidirectional)
+	(hierarchical_label "SDI"
+		(shape output)
 		(at 204.47 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3690,23 +3546,10 @@
 			(justify right)
 		)
 		(uuid "c1da9e58-6803-43b6-9865-4af20c4e4256")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "SDO"
-		(shape bidirectional)
+	(hierarchical_label "SDO"
+		(shape input)
 		(at 204.47 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3714,23 +3557,10 @@
 			(justify right)
 		)
 		(uuid "d75b25ab-e414-4659-b7dc-19192a2f1a16")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "RX_LED"
-		(shape bidirectional)
+	(hierarchical_label "RX_LED"
+		(shape input)
 		(at 49.53 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3738,23 +3568,10 @@
 			(justify right)
 		)
 		(uuid "d75d8bcb-aaa8-462b-b177-cac04432212a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "MAIN"
-		(shape bidirectional)
+	(hierarchical_label "MAIN"
+		(shape output)
 		(at 237.49 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3762,18 +3579,6 @@
 			(justify right)
 		)
 		(uuid "e4f770a7-4868-4938-b5fa-9738f09dfef3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -3885,7 +3690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3907,7 +3712,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7k 1% 1/8W 0805"
+			(at 63.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 63.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-074K7L"
+			(at 63.5 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-4.70KCRCT-ND"
 			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4032,7 +3870,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "RGB"
 			(at 101.6 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +3903,40 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package"
+		(property "Description" "LED RGB PLCC-6 anodos/catodos independientes (STATUS)"
+			(at 91.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Broadcom"
+			(at 91.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "ASMT-YTB7-0AA02"
+			(at 91.44 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "516-3132-1-ND"
 			(at 91.44 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4125,7 +3996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PDTC114EU"
+		(property "Value" "PDTC114ET"
 			(at 134.62 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4158,7 +4029,40 @@
 				)
 			)
 		)
-		(property "Description" "Digital NPN Transistor, 10k/10k, SOT-23"
+		(property "Description" "Transistor NPN pre-polarizado 10k/10k SOT-23"
+			(at 129.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 129.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PDTC114ET,215"
+			(at 129.54 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-5131-1-ND"
 			(at 129.54 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4199,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f071500-83c1-4cc7-9aaf-fbc3e81c2c81")
-		(property "Reference" "D8"
+		(property "Reference" "D306"
 			(at 246.38 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,7 +4114,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TVS2"
+		(property "Value" "PESD5V0S1BA"
 			(at 246.38 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4147,40 @@
 				)
 			)
 		)
-		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+		(property "Description" "TVS ESD bidireccional 5V SOD-323 (MAIN)"
+			(at 243.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 243.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PESD5V0S1BA,115"
+			(at 243.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-PESD5V0S1BA,115CT-ND"
 			(at 243.84 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4263,7 +4200,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/55d50477-bdb0-44f1-9fe4-438048b0955b"
-					(reference "D8")
+					(reference "D306")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PDTC114EU"
+		(property "Value" "PDTC114ET"
 			(at 93.98 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +4261,40 @@
 				)
 			)
 		)
-		(property "Description" "Digital NPN Transistor, 10k/10k, SOT-23"
+		(property "Description" "Transistor NPN pre-polarizado 10k/10k SOT-23"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PDTC114ET,215"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-5131-1-ND"
 			(at 88.9 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4452,7 +4422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PDTC114EU"
+		(property "Value" "PDTC114ET"
 			(at 66.04 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4455,40 @@
 				)
 			)
 		)
-		(property "Description" "Digital NPN Transistor, 10k/10k, SOT-23"
+		(property "Description" "Transistor NPN pre-polarizado 10k/10k SOT-23"
+			(at 60.96 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 60.96 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PDTC114ET,215"
+			(at 60.96 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-5131-1-ND"
 			(at 60.96 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4670,7 +4673,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD9B5.0ST5G")
-		(at 200.66 49.53 90)
+		(at 189.23 49.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4680,8 +4683,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fdb6187-f0d0-4557-9075-9e4cf8a91423")
-		(property "Reference" "D7"
-			(at 203.2 48.2599 90)
+		(property "Reference" "D305"
+			(at 191.77 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4691,8 +4694,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TVS1"
-			(at 203.2 50.7999 90)
+		(property "Value" "PESD5V0S1BA"
+			(at 191.77 50.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4703,7 +4706,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 200.66 49.53 0)
+			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4714,7 +4717,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 200.66 49.53 0)
+			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4724,8 +4727,41 @@
 				)
 			)
 		)
-		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
-			(at 200.66 49.53 0)
+		(property "Description" "TVS ESD bidireccional 5V SOD-323 (RESET)"
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PESD5V0S1BA,115"
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-PESD5V0S1BA,115CT-ND"
+			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4744,7 +4780,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/55d50477-bdb0-44f1-9fe4-438048b0955b"
-					(reference "D7")
+					(reference "D305")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4788,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 45.72 0)
+		(at 212.09 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4763,7 +4799,7 @@
 		(fields_autoplaced yes)
 		(uuid "56673774-1304-4526-81cd-f1d94a648b7e")
 		(property "Reference" "#PWR061"
-			(at 223.52 52.07 0)
+			(at 212.09 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4774,7 +4810,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 50.8 0)
+			(at 212.09 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4784,7 +4820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 45.72 0)
+			(at 212.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4795,7 +4831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 45.72 0)
+			(at 212.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,7 +4842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 45.72 0)
+			(at 212.09 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +4886,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "Verde"
 			(at 187.96 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4897,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4883,7 +4919,40 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED verde 0805 (PWR)"
+			(at 184.15 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Lite-On"
+			(at 184.15 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "LTST-C171KGKT"
+			(at 184.15 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "160-1426-1-ND"
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4942,7 +5011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -4964,7 +5033,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 470R 1% 1/8W 0805"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-07470RL"
+			(at 184.15 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-470CRCT-ND"
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -5043,7 +5145,40 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tira de pines macho 1x8 2.54mm (mikroBUS izq.)"
+			(at 217.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Wurth Elektronik"
+			(at 217.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "61300811121"
+			(at 217.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "732-5321-ND"
 			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5089,7 +5224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 55.88 0)
+		(at 189.23 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5100,7 +5235,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a8e7ad2-0ec8-4b7a-bf02-67138be243e5")
 		(property "Reference" "#PWR060"
-			(at 200.66 62.23 0)
+			(at 189.23 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +5246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 60.96 0)
+			(at 189.23 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5121,7 +5256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 55.88 0)
+			(at 189.23 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +5267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 55.88 0)
+			(at 189.23 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5143,7 +5278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 55.88 0)
+			(at 189.23 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5198,7 +5333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5355,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1k 1% 1/8W 0805"
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-071KL"
+			(at 76.2 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-1.00KCRCT-ND"
 			(at 76.2 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 106.68 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5379,7 +5547,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 470R 1% 1/8W 0805"
+			(at 106.68 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 106.68 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-07470RL"
+			(at 106.68 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-470CRCT-ND"
 			(at 106.68 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5581,7 +5782,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RX"
+		(property "Value" "Naranja"
 			(at 67.31 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5592,7 +5793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 63.5 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5614,7 +5815,40 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED naranja 0805 (RX)"
+			(at 63.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Lite-On"
+			(at 63.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "LTST-C171KFKT"
+			(at 63.5 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "160-1425-1-ND"
 			(at 63.5 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5750,7 +5984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 91.44 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5772,7 +6006,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1k 1% 1/8W 0805"
+			(at 91.44 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 91.44 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-071KL"
+			(at 91.44 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-1.00KCRCT-ND"
 			(at 91.44 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5929,7 +6196,40 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Tira de pines macho 1x8 2.54mm (mikroBUS der.)"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Wurth Elektronik"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "61300811121"
+			(at 233.68 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "732-5321-ND"
 			(at 233.68 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6371,7 +6671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5696c22-f89a-493b-a0a7-a854fa8e73a5")
-		(property "Reference" "SW2"
+		(property "Reference" "S302"
 			(at 255.27 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,7 +6681,7 @@
 				)
 			)
 		)
-		(property "Value" "MAIN"
+		(property "Value" "PTS810"
 			(at 255.27 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6413,7 +6713,40 @@
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
+		(property "Description" "Pulsador tactil SMD 4.2x3.2mm (MAIN)"
+			(at 255.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "C&K"
+			(at 255.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PTS810SJG250SMTRLFS"
+			(at 255.27 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "CKN10504CT-ND"
 			(at 255.27 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6433,7 +6766,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/55d50477-bdb0-44f1-9fe4-438048b0955b"
-					(reference "SW2")
+					(reference "S302")
 					(unit 1)
 				)
 			)
@@ -6441,7 +6774,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Omron_B3FS")
-		(at 212.09 43.18 0)
+		(at 200.66 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6451,8 +6784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e68d9c-a2c5-4052-a464-325a67bb2e8f")
-		(property "Reference" "SW1"
-			(at 212.09 35.56 0)
+		(property "Reference" "S301"
+			(at 200.66 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6461,8 +6794,8 @@
 				)
 			)
 		)
-		(property "Value" "RESET"
-			(at 212.09 38.1 0)
+		(property "Value" "PTS810"
+			(at 200.66 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6472,7 +6805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 38.1 0)
+			(at 200.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,7 +6816,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf"
-			(at 212.09 38.1 0)
+			(at 200.66 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,8 +6826,41 @@
 				)
 			)
 		)
-		(property "Description" "Omron B3FS 6x6mm single pole normally-open tactile switch"
-			(at 212.09 43.18 0)
+		(property "Description" "Pulsador tactil SMD 4.2x3.2mm (RESET)"
+			(at 200.66 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "C&K"
+			(at 200.66 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PTS810SJG250SMTRLFS"
+			(at 200.66 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "CKN10504CT-ND"
+			(at 200.66 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6513,7 +6879,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/55d50477-bdb0-44f1-9fe4-438048b0955b"
-					(reference "SW1")
+					(reference "S301")
 					(unit 1)
 				)
 			)
@@ -6541,7 +6907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PDTC114EU"
+		(property "Value" "PDTC114ET"
 			(at 50.8 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6574,7 +6940,40 @@
 				)
 			)
 		)
-		(property "Description" "Digital NPN Transistor, 10k/10k, SOT-23"
+		(property "Description" "Transistor NPN pre-polarizado 10k/10k SOT-23"
+			(at 45.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 45.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PDTC114ET,215"
+			(at 45.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-5131-1-ND"
 			(at 45.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6625,7 +7024,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TX"
+		(property "Value" "Naranja"
 			(at 115.57 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6636,7 +7035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 111.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6658,7 +7057,40 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED naranja 0805 (TX)"
+			(at 111.76 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Lite-On"
+			(at 111.76 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "LTST-C171KFKT"
+			(at 111.76 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "160-1425-1-ND"
 			(at 111.76 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6706,7 +7138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PDTC114EU"
+		(property "Value" "PDTC114ET"
 			(at 114.3 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +7171,40 @@
 				)
 			)
 		)
-		(property "Description" "Digital NPN Transistor, 10k/10k, SOT-23"
+		(property "Description" "Transistor NPN pre-polarizado 10k/10k SOT-23"
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PDTC114ET,215"
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-5131-1-ND"
 			(at 109.22 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6878,7 +7343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6900,7 +7365,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 4.7k 1% 1/8W 0805"
+			(at 111.76 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 111.76 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-074K7L"
+			(at 111.76 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-4.70KCRCT-ND"
 			(at 111.76 146.05 0)
 			(hide yes)
 			(show_name no)

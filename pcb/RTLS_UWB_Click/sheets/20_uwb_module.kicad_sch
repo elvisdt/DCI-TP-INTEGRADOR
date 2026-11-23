@@ -2068,6 +2068,66 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 27.94 36.83)
+		(end 93.98 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0df3700b-093c-4fbc-947c-b2277b24a4d0")
+	)
+	(rectangle
+		(start 97.79 36.83)
+		(end 207.01 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "26e40e40-04d3-4ea1-969b-f27a92baff37")
+	)
+	(rectangle
+		(start 210.82 36.83)
+		(end 271.78 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "774e0dad-c62a-403e-b2b9-a3a3323aabf6")
+	)
+	(rectangle
+		(start 210.82 97.79)
+		(end 271.78 149.86)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f12a02bc-784e-486b-97d2-ef93734ebe45")
+	)
+	(text "Decoupling (VUSB / 3V3_LDO)"
+		(exclude_from_sim no)
+		(at 33.02 45.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "130b38a8-37e6-4b50-b2a8-d56450a0c5c1")
+	)
 	(text "Test pads (NFC antenna, I2C)"
 		(exclude_from_sim no)
 		(at 215.9 109.22 0)
@@ -2079,6 +2139,30 @@
 			(justify left bottom)
 		)
 		(uuid "3e7d6d35-8ece-42c9-9c98-34a85f2e10e1")
+	)
+	(text "SWD Debug Connector"
+		(exclude_from_sim no)
+		(at 215.9 45.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "85da41f2-26cb-4019-8391-2db52a48847e")
+	)
+	(text "UWB Module (DWM3001C)"
+		(exclude_from_sim no)
+		(at 102.87 45.72 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac8aca46-9dfd-450d-9b95-df21c8ea2dea")
 	)
 	(no_connect
 		(at 176.53 90.17)
@@ -2830,10 +2914,9 @@
 		)
 		(uuid "feab3a9a-e9d7-4c0d-b898-cbb7e171e3fc")
 	)
-	(global_label "LED_RED"
-		(shape bidirectional)
+	(hierarchical_label "LED_RED"
+		(shape output)
 		(at 119.38 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2841,23 +2924,10 @@
 			(justify right)
 		)
 		(uuid "1c20c1fa-2ff8-4b10-a9ea-62a1642da4dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "TX_LED"
-		(shape bidirectional)
+	(hierarchical_label "TX_LED"
+		(shape output)
 		(at 184.15 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2865,23 +2935,10 @@
 			(justify left)
 		)
 		(uuid "3666fe7f-64ac-49ae-a0ba-56f0632fa6d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "SDO"
-		(shape bidirectional)
+	(hierarchical_label "SDO"
+		(shape output)
 		(at 119.38 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2889,23 +2946,10 @@
 			(justify right)
 		)
 		(uuid "6abe1c7c-545c-4cbf-8381-4b0ffa8ba97c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "RX_LED"
-		(shape bidirectional)
+	(hierarchical_label "RX_LED"
+		(shape output)
 		(at 184.15 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2913,23 +2957,10 @@
 			(justify left)
 		)
 		(uuid "6b7cb31d-b6be-401e-ad9b-9cb05f0c27b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "USB_P"
+	(hierarchical_label "USB_P"
 		(shape bidirectional)
 		(at 184.15 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,23 +2968,10 @@
 			(justify left)
 		)
 		(uuid "765fe2a8-cf5f-4340-a27e-9c351a26fe82")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "USB_N"
+	(hierarchical_label "USB_N"
 		(shape bidirectional)
 		(at 184.15 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2961,23 +2979,10 @@
 			(justify left)
 		)
 		(uuid "828a0633-9550-43c8-b163-469ca21f35c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "RST"
+	(hierarchical_label "RST"
 		(shape bidirectional)
 		(at 227.33 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2985,23 +2990,10 @@
 			(justify right)
 		)
 		(uuid "852ba2c8-a792-4536-a024-88b7913f14af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "SCK"
-		(shape bidirectional)
+	(hierarchical_label "SCK"
+		(shape input)
 		(at 119.38 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3009,23 +3001,10 @@
 			(justify right)
 		)
 		(uuid "88d04c11-cbff-4b08-b8cb-c6172b4a6bc3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "TXD"
-		(shape bidirectional)
+	(hierarchical_label "TXD"
+		(shape output)
 		(at 119.38 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3033,23 +3012,10 @@
 			(justify right)
 		)
 		(uuid "8da7ca3e-8a32-4835-a63c-54bba8a04bbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "MAIN"
-		(shape bidirectional)
+	(hierarchical_label "MAIN"
+		(shape input)
 		(at 119.38 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3057,23 +3023,10 @@
 			(justify right)
 		)
 		(uuid "94578585-16b7-431c-ada0-2b5a4e6bdd6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "CS"
-		(shape bidirectional)
+	(hierarchical_label "CS"
+		(shape input)
 		(at 119.38 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3081,23 +3034,10 @@
 			(justify right)
 		)
 		(uuid "9bc445bd-9b3e-4fb3-ab12-cec185e09077")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "LED_BLUE"
-		(shape bidirectional)
+	(hierarchical_label "LED_BLUE"
+		(shape output)
 		(at 119.38 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3105,23 +3045,10 @@
 			(justify right)
 		)
 		(uuid "a675dd8a-8533-4383-85f1-0d1c2b999515")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "SDI"
-		(shape bidirectional)
+	(hierarchical_label "SDI"
+		(shape input)
 		(at 119.38 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3129,23 +3056,10 @@
 			(justify right)
 		)
 		(uuid "bbb16378-795d-4e55-acbd-a0626352820c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "RXD"
-		(shape bidirectional)
+	(hierarchical_label "RXD"
+		(shape input)
 		(at 119.38 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3153,23 +3067,10 @@
 			(justify right)
 		)
 		(uuid "be1dd034-313b-4ac4-89ba-7036a303a66c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "RST"
+	(hierarchical_label "RST"
 		(shape bidirectional)
 		(at 119.38 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,23 +3078,10 @@
 			(justify right)
 		)
 		(uuid "cab1c044-a3f0-46e8-a40c-44224de958bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "IRQ"
-		(shape bidirectional)
+	(hierarchical_label "IRQ"
+		(shape output)
 		(at 119.38 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3201,23 +3089,10 @@
 			(justify right)
 		)
 		(uuid "caf59239-047c-4eb5-8daf-e184c068a447")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
-	(global_label "LED_GREEN"
-		(shape bidirectional)
+	(hierarchical_label "LED_GREEN"
+		(shape output)
 		(at 119.38 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3225,18 +3100,6 @@
 			(justify right)
 		)
 		(uuid "e5718fde-9462-47a5-a9ba-b4c5c4b35404")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -3402,10 +3265,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "18653221-4305-4276-afff-5be58297d188")
-		(property "Reference" "J3"
+		(property "Reference" "J201"
 			(at 241.3 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3447,7 +3310,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Pads SWD 2x3 1.27mm (DNP)"
 			(at 240.03 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3479,7 +3342,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/e49b128f-96d3-4246-8222-dbf610465491"
-					(reference "J3")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -3518,7 +3381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 53.0352 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3540,7 +3403,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1uF 25V X7R 0805"
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samsung Electro-Mechanics"
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "CL21B105KAFNNNE"
+			(at 52.07 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1066-1-ND"
 			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3968,7 +3864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b534810-e761-4747-b9ae-d25ecf936030")
-		(property "Reference" "U1"
+		(property "Reference" "U201"
 			(at 153.67 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4011,7 +3907,7 @@
 				)
 			)
 		)
-		(property "Description" "Módulo UWB (DW3110) + BLE (nRF52833) + acelerómetro (LIS2DH12) con antena integrada"
+		(property "Description" "Modulo UWB DW3110 + nRF52833 + LIS2DH12 + antena"
 			(at 153.67 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4032,10 +3928,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Manf#" "DWM3001C"
+		(property "Manf#" "DWM3001CTR13"
 			(at 153.67 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4044,7 +3939,17 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Digikey#" "2312-DWM3001CTR13CT-ND"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "28"
@@ -4194,7 +4099,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/e49b128f-96d3-4246-8222-dbf610465491"
-					(reference "U1")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -4311,7 +4216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 65.7352 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4333,7 +4238,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 100nF 50V X7R 0805"
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samsung Electro-Mechanics"
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "CL21B104KBCNNNC"
+			(at 64.77 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1003-1-ND"
 			(at 64.77 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4443,7 +4381,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4492,7 +4430,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Pad de prueba I2C SCL (sin componente)"
 			(at 228.6 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4548,7 +4486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 45.4152 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4570,7 +4508,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 1uF 25V X7R 0805"
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samsung Electro-Mechanics"
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "CL21B105KAFNNNE"
+			(at 44.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1066-1-ND"
 			(at 44.45 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4680,7 +4651,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4729,7 +4700,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Pad de prueba I2C SDA (sin componente)"
 			(at 228.6 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -4758,7 +4729,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4807,7 +4778,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Pad de prueba NFC2 (sin componente)"
 			(at 228.6 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4941,7 +4912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 78.4352 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4963,7 +4934,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 100nF 50V X7R 0805"
+			(at 77.47 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samsung Electro-Mechanics"
+			(at 77.47 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "CL21B104KBCNNNC"
+			(at 77.47 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1003-1-ND"
 			(at 77.47 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5022,7 +5026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 69.5452 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5044,7 +5048,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 100nF 50V X7R 0805"
+			(at 68.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samsung Electro-Mechanics"
+			(at 68.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "CL21B104KBCNNNC"
+			(at 68.58 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1003-1-ND"
 			(at 68.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5492,7 +5529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 56.8452 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5514,7 +5551,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 100nF 50V X7R 0805"
+			(at 55.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samsung Electro-Mechanics"
+			(at 55.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "CL21B104KBCNNNC"
+			(at 55.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1003-1-ND"
 			(at 55.88 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5546,7 +5616,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5595,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "Pad de prueba NFC1 (sin componente)"
 			(at 228.6 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -5728,7 +5798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 41.6052 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5750,7 +5820,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "CAP CER 4.7uF 25V X5R 0805"
+			(at 40.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Samsung Electro-Mechanics"
+			(at 40.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "CL21A475KAQNNNE"
+			(at 40.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1276-1244-1-ND"
 			(at 40.64 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5931,89 +6034,5 @@
 				)
 			)
 		)
-	)
-	(text "Decoupling (VUSB / 3V3_LDO)"
-		(exclude_from_sim no)
-		(at 33.02 45.72 0)
-		(effects
-			(font
-				(size 2 2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "130b38a8-37e6-4b50-b2a8-d56450a0c5c1")
-	)
-	(text "UWB Module (DWM3001C)"
-		(exclude_from_sim no)
-		(at 102.87 45.72 0)
-		(effects
-			(font
-				(size 2 2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac8aca46-9dfd-450d-9b95-df21c8ea2dea")
-	)
-	(text "SWD Debug Connector"
-		(exclude_from_sim no)
-		(at 215.9 45.72 0)
-		(effects
-			(font
-				(size 2 2)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "85da41f2-26cb-4019-8391-2db52a48847e")
-	)
-	(rectangle
-		(start 27.94 36.83)
-		(end 93.98 149.86)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0df3700b-093c-4fbc-947c-b2277b24a4d0")
-	)
-	(rectangle
-		(start 97.79 36.83)
-		(end 207.01 149.86)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "26e40e40-04d3-4ea1-969b-f27a92baff37")
-	)
-	(rectangle
-		(start 210.82 36.83)
-		(end 271.78 93.98)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "774e0dad-c62a-403e-b2b9-a3a3323aabf6")
-	)
-	(rectangle
-		(start 210.82 97.79)
-		(end 271.78 149.86)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f12a02bc-784e-486b-97d2-ef93734ebe45")
 	)
 )

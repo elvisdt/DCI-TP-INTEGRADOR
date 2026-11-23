@@ -5075,10 +5075,9 @@
 		)
 		(uuid "fc308e3a-ec41-4fb7-9f22-3144b7e55d17")
 	)
-	(global_label "USB_P"
+	(hierarchical_label "USB_P"
 		(shape bidirectional)
 		(at 100.33 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5086,23 +5085,10 @@
 			(justify left)
 		)
 		(uuid "f55a4f62-6243-4a0d-a59c-9f7dbe3f2415")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
-	(global_label "USB_N"
+	(hierarchical_label "USB_N"
 		(shape bidirectional)
 		(at 100.33 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5110,18 +5096,6 @@
 			(justify left)
 		)
 		(uuid "fd16fce1-c40d-4cd7-8616-462fac486942")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5332,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Description" "Cargador de batería Li-Ion/Li-Pol 600 mA 4,2 V, UDFN-8 2x3 mm con EP"
+		(property "Description" "Cargador Li-ion 1 celda 600mA UDFN-8 2x3 (LTB)"
 			(at 190.5 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5353,7 +5327,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Manf#" "MC34671AEPR2"
@@ -5365,7 +5338,17 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Digikey#" "MC34671AEPR2CT-ND"
+			(at 190.5 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -5515,7 +5498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5537,40 +5520,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 179.07 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 179.07 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
+		(property "Description" "CAP CER 10uF 25V X5R 0805"
 			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5592,7 +5542,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "Manf" "Samsung Electro-Mechanics"
 			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5603,7 +5553,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" ""
+		(property "Manf#" "CL21A106KAYNNNE"
 			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5614,18 +5564,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" ""
-			(at 179.07 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" ""
+		(property "Digikey#" "1276-2891-1-ND"
 			(at 179.07 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5782,7 +5721,40 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(property "Description" "MOSFET P 20V 4.2A SOT-23"
+			(at 105.41 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Diodes Inc."
+			(at 105.41 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "DMP2305U-7"
+			(at 105.41 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "DMP2305UDICT-ND"
 			(at 105.41 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5943,40 +5915,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 90.17 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "USBLC6-2SC6"
-			(at 90.17 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 90.17 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "ESD de D+/D- (IEC 61000-4-2 nivel 4). Pines 1/6 (I/O1) y 3/4 (I/O2) en paso directo: rutear la línea a través del encapsulado, pegado al conector J401."
+		(property "Description" "Proteccion ESD USB 2 lineas SOT-23-6"
 			(at 90.17 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5998,7 +5937,29 @@
 				)
 			)
 		)
-		(property "LCSC" "C2687116"
+		(property "Manf" "STMicroelectronics"
+			(at 90.17 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "USBLC6-2SC6"
+			(at 90.17 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "497-5235-1-ND"
 			(at 90.17 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6048,7 +6009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2383d725-f134-42ff-865d-51021419dfe4")
-		(property "Reference" "FB1"
+		(property "Reference" "FB101"
 			(at 68.5292 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6058,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Value" "Ferrite"
+		(property "Value" "220R@100MHz"
 			(at 68.5292 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6090,7 +6051,40 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
+		(property "Description" "Ferrite 220R@100MHz 2A 0805"
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Murata"
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "BLM21PG221SN1D"
+			(at 68.58 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "490-1054-1-ND"
 			(at 68.58 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6110,7 +6104,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/6408b3b3-edbe-42fc-ba21-58e3c4983790"
-					(reference "FB1")
+					(reference "FB101")
 					(unit 1)
 				)
 			)
@@ -6128,7 +6122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2be06520-4256-42c9-8912-4928673c50f9")
-		(property "Reference" "J1"
+		(property "Reference" "J101"
 			(at 34.29 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6170,7 +6164,40 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "Conector USB-C 2.0 receptaculo SMD"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "GCT"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "USB4110-GF-A"
+			(at 34.29 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "2073-USB4110-GF-A-1-ND"
 			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6235,7 +6262,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/6408b3b3-edbe-42fc-ba21-58e3c4983790"
-					(reference "J1")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6374,40 +6401,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
+		(property "Description" "RES 4.7k 1% 1/8W 0805"
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6429,7 +6423,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "Manf" "YAGEO"
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6440,7 +6434,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" ""
+		(property "Manf#" "RC0805FR-074K7L"
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6451,18 +6445,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" ""
-			(at 242.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" ""
+		(property "Digikey#" "311-4.70KCRCT-ND"
 			(at 242.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7061,7 +7044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7083,40 +7066,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 232.41 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 232.41 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
+		(property "Description" "CAP CER 10uF 25V X5R 0805"
 			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7138,7 +7088,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "Manf" "Samsung Electro-Mechanics"
 			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7149,7 +7099,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" ""
+		(property "Manf#" "CL21A106KAYNNNE"
 			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7160,18 +7110,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" ""
-			(at 232.41 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" ""
+		(property "Digikey#" "1276-2891-1-ND"
 			(at 232.41 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7230,7 +7169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 218.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +7191,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 18k 1% 1/8W 0805"
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-0718KL"
+			(at 218.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-18.0KCRCT-ND"
 			(at 218.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7543,7 +7515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 215.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7565,40 +7537,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 215.9 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 215.9 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 215.9 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
+		(property "Description" "CAP CER 4.7uF 25V X5R 0805"
 			(at 215.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7620,7 +7559,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "Manf" "Samsung Electro-Mechanics"
 			(at 215.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7631,7 +7570,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" ""
+		(property "Manf#" "CL21A475KAQNNNE"
 			(at 215.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7642,18 +7581,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" ""
-			(at 215.9 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" ""
+		(property "Digikey#" "1276-1244-1-ND"
 			(at 215.9 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7932,7 +7860,7 @@
 				)
 			)
 		)
-		(property "Value" "SPX3819M5"
+		(property "Value" "SPX3819M5-L/TR"
 			(at 204.47 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7964,7 +7892,40 @@
 				)
 			)
 		)
-		(property "Description" "500mA Low drop-out regulator, Adjustable, SOT-23-5"
+		(property "Description" "LDO ajustable 500mA SOT-23-5"
+			(at 204.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "MaxLinear"
+			(at 204.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "SPX3819M5-L/TR"
+			(at 204.47 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1016-1871-1-ND"
 			(at 204.47 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8054,40 +8015,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "-"
-			(at 114.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "-"
-			(at 114.3 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "Punto de prueba de VBUS (no alimenta la placa: D401 y JP401 se eliminaron)."
+		(property "Description" "Pad de prueba VBUS (sin componente)"
 			(at 114.3 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8132,7 +8060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f8847c1-17d9-4600-993f-7e4f70cc9420")
-		(property "Reference" "D3"
+		(property "Reference" "D103"
 			(at 219.456 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8142,7 +8070,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Naranja"
 			(at 219.456 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8152,7 +8080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8174,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED naranja 0805 (CHG)"
 			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8196,6 +8124,39 @@
 				)
 			)
 		)
+		(property "Manf" "Lite-On"
+			(at 220.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "LTST-C171KFKT"
+			(at 220.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "160-1425-1-ND"
+			(at 220.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "82fe7b6c-2dfa-4a48-b5bd-a49b66fa34b5")
 		)
@@ -8205,7 +8166,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/6408b3b3-edbe-42fc-ba21-58e3c4983790"
-					(reference "D3")
+					(reference "D103")
 					(unit 1)
 				)
 			)
@@ -8785,7 +8746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8807,40 +8768,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GCM188R72A104KA64D"
-			(at 116.84 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 116.84 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "Desacople VBUS del USBLC6-2SC6: 100 nF, X7R, 50 V, 0603; no alimenta el riel +5V. Agregado despues de placement-v1, autorizado en etapa 3. PROTO (2026-10-30, consolidacion): un solo MPN para los 100 nF 0603: 100 V X7R (FH 0603B104K101NT, LCSC C88219), sin AEC-Q200. PROD: Murata GCM188R72A104KA64D (100 V, AEC-Q200). Mismo valor y tolerancia."
+		(property "Description" "CAP CER 100nF 50V X7R 0805"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8862,7 +8790,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C415406"
+		(property "Manf" "Samsung Electro-Mechanics"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8873,7 +8801,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" "0603B104K101NT"
+		(property "Manf#" "CL21B104KBCNNNC"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8884,18 +8812,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" "FH"
-			(at 116.84 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" "C88219"
+		(property "Digikey#" "1276-1003-1-ND"
 			(at 116.84 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9019,7 +8936,7 @@
 				)
 			)
 		)
-		(property "Value" "PMEG2010AEB"
+		(property "Value" "PMEG2010AEH"
 			(at 78.74 118.872 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9051,7 +8968,40 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky 20V 1A SOD-123F"
+			(at 78.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 78.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PMEG2010AEH,115"
+			(at 78.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-3856-1-ND"
 			(at 78.74 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9110,7 +9060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.71 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9132,40 +9082,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0603FR-075K1L"
-			(at 92.71 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 92.71 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "Rd de CC2 (5.1k a GND): identifica a la placa como dispositivo USB-C. PROTO (2026-10-30): UNI-ROYAL 0603WAF5101T5E (LCSC C23186, JLC basic), misma especificación, sin AEC-Q200."
+		(property "Description" "RES 5.1k 1% 1/8W 0805"
 			(at 92.71 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9187,7 +9104,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C125891"
+		(property "Manf" "YAGEO"
 			(at 92.71 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9198,7 +9115,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" "0603WAF5101T5E"
+		(property "Manf#" "RC0805FR-075K1L"
 			(at 92.71 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9209,18 +9126,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" "UNI-ROYAL"
-			(at 92.71 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" "C23186"
+		(property "Digikey#" "311-5.10KCRCT-ND"
 			(at 92.71 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9279,7 +9185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 232.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9301,40 +9207,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 232.41 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 232.41 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
+		(property "Description" "RES 4.7k 1% 1/8W 0805"
 			(at 232.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9356,7 +9229,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "Manf" "YAGEO"
 			(at 232.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9367,7 +9240,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" ""
+		(property "Manf#" "RC0805FR-074K7L"
 			(at 232.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9378,18 +9251,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" ""
-			(at 232.41 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" ""
+		(property "Digikey#" "311-4.70KCRCT-ND"
 			(at 232.41 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9527,7 +9389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.262 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -9549,7 +9411,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 100k 1% 1/8W 0805"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-07100KL"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-100KCRCT-ND"
 			(at 66.04 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9895,7 +9790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7f2c67f-0758-46db-bd9c-2b615bae5463")
-		(property "Reference" "J2"
+		(property "Reference" "J102"
 			(at 267.97 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9906,7 +9801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DS1069"
+		(property "Value" "S2B-PH-SM4-TB"
 			(at 267.97 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9939,7 +9834,40 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Conector bateria JST PH 2 pines 2mm SMD acodado"
+			(at 265.43 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "JST"
+			(at 265.43 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 265.43 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "455-S2B-PH-SM4-TBCT-ND"
 			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9959,7 +9887,7 @@
 		(instances
 			(project "RTLS_UWB_Click"
 				(path "/e910a4d7-6fd7-4f96-b138-5c89a5f4dffc/6408b3b3-edbe-42fc-ba21-58e3c4983790"
-					(reference "J2")
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -10174,7 +10102,40 @@
 				)
 			)
 		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 3"
+		(property "Description" "Schottky dual catodo comun 30V 2A SOT1061"
+			(at 53.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 53.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "PMEG3020CPA,115"
+			(at 53.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "1727-5205-1-ND"
 			(at 53.34 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10236,7 +10197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10258,40 +10219,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 73.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AC0603FR-075K1L"
-			(at 73.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 73.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" "Rd de CC1 (5.1k a GND): identifica a la placa como dispositivo USB-C. PROTO (2026-10-30): UNI-ROYAL 0603WAF5101T5E (LCSC C23186, JLC basic), misma especificación, sin AEC-Q200."
+		(property "Description" "RES 5.1k 1% 1/8W 0805"
 			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10313,7 +10241,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C125891"
+		(property "Manf" "YAGEO"
 			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10324,7 +10252,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" "0603WAF5101T5E"
+		(property "Manf#" "RC0805FR-075K1L"
 			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10335,18 +10263,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" "UNI-ROYAL"
-			(at 73.66 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" "C23186"
+		(property "Digikey#" "311-5.10KCRCT-ND"
 			(at 73.66 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10482,7 +10399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10504,40 +10421,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 157.48 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 157.48 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 157.48 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Notes" ""
+		(property "Description" "CAP CER 1uF 25V X7R 0805"
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10559,7 +10443,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "Manf" "Samsung Electro-Mechanics"
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10570,7 +10454,7 @@
 				)
 			)
 		)
-		(property "MPN_PROTO" ""
+		(property "Manf#" "CL21B105KAFNNNE"
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10581,18 +10465,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_PROTO" ""
-			(at 157.48 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC_PROTO" ""
+		(property "Digikey#" "1276-1066-1-ND"
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10961,7 +10834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10983,7 +10856,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 30.1k 1% 1/8W 0805"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf" "YAGEO"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf#" "RC0805FR-0730K1L"
+			(at 218.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey#" "311-30.1KCRCT-ND"
 			(at 218.44 124.46 0)
 			(hide yes)
 			(show_name no)
