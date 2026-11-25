@@ -6168,7 +6168,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4110-GF-A"
+		(property "Value" "USB4105-GF-A"
 			(at 34.29 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6178,7 +6178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 38.1 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6222,7 +6222,7 @@
 				)
 			)
 		)
-		(property "Manf#" "USB4110-GF-A"
+		(property "Manf#" "USB4105-GF-A"
 			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6233,7 +6233,7 @@
 				)
 			)
 		)
-		(property "Digikey#" "2073-USB4110-GF-A-1-ND"
+		(property "Digikey#" "2073-USB4105-GF-ACT-ND"
 			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9655,7 +9655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm"
+		(property "Footprint" "RTLS_UWB_Click:HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm"
 			(at 54.61 129.54 0)
 			(hide yes)
 			(show_name no)

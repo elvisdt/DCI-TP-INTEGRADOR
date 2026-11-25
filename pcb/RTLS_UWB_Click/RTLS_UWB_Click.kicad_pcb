@@ -137,18 +137,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b5a2ee17-10cc-49a4-9267-847368d75409")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "MaxLinear"
 			(at 0 0 0)
 			(unlocked yes)
@@ -578,18 +566,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d665b9c1-b4e0-4046-a7f7-cc0d80ae6b33")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -728,7 +704,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 		(layer "F.Cu")
 		(uuid "06c10a61-d6a9-476e-9f4f-21529f2a6684")
-		(at 179.835 89.465)
+		(at 112.61 95.775)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf")
 		(tags "USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A")
 		(property "Reference" "J101"
@@ -1437,18 +1413,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "2bc14029-92c5-44d0-acb7-5a2a21a11f95")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Nexperia"
 			(at 0 0 0)
 			(unlocked yes)
@@ -2150,18 +2114,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0ff65ba4-0a6c-4272-b982-53536ae2cfdf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -2344,18 +2296,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "898947dc-28ff-45d5-9523-437183b96403")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2595,18 +2535,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c4f9fe61-7390-4ab9-9b67-7aa580050bac")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DNP" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -2802,18 +2730,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "03e4a379-31b0-42f1-8147-04d287e5cab8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -3235,18 +3151,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "21e25c19-2c4b-415f-bb8d-e5d2baa02dda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 0 0 0)
 			(unlocked yes)
@@ -3496,18 +3400,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "9d6113a6-8dcd-44e1-8ad0-c727176a8fce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DNP" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3703,18 +3595,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7d166d79-4f89-4fb3-b58f-60f7d3eca9cb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -3916,18 +3796,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "abda0b70-778a-4189-af16-b077974690ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/ab8559fe-ecdd-4662-b762-5f60c598b758")
 		(sheetname "/")
@@ -4029,18 +3897,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "34eef369-1e76-4649-b0cb-b489a9cf7c55")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4453,18 +4309,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "32e4e3e4-a04b-4f33-ab17-1bf6bd95024a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DNP" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -4663,18 +4507,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f8405782-e989-4fd9-96ef-fa05c4e00e3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -4857,18 +4689,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "67ddfb22-2eab-431f-b0c5-34ef32c88311")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5381,18 +5201,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6cdd10e4-5016-4395-bbef-b422a4ce4a63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -5914,18 +5722,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "fiducial"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5771d3b9-6a97-4a72-9c24-543310fdfb29")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/d04095bf-3155-4464-8862-27f8484d90ad")
 		(sheetname "/")
@@ -6029,18 +5825,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "26e6e0d3-19a9-468d-a690-12203a22418a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6226,18 +6010,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a2e52842-08de-4b41-ac6a-17e53a05e272")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6439,18 +6211,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fbe41b86-ccd3-4a87-9be4-f0b53f9d8057")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -6589,11 +6349,11 @@
 	(footprint "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "6faf256f-be5d-4157-ad21-4f2c54a48b64")
-		(at 177.735 99.795)
+		(at 92.1 63 -90)
 		(descr "JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J102"
-			(at 0 -5.8 0)
+			(at 0 -5.8 90)
 			(layer "F.SilkS")
 			(uuid "213305bd-4543-427a-a574-785e858b3258")
 			(effects
@@ -6604,7 +6364,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB"
-			(at 0 5.8 0)
+			(at 0 5.8 90)
 			(layer "F.Fab")
 			(uuid "64a1d223-b6ff-4d32-b3d9-17e002ee5976")
 			(effects
@@ -6615,7 +6375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "476a0dcd-761b-4663-a383-f3c5c2ed4764")
@@ -6626,7 +6386,7 @@
 			)
 		)
 		(property "Description" "Conector bateria JST PH 2 pines 2mm SMD acodado"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "caed5539-cc58-4909-ab75-42f69d4d8343")
@@ -6636,20 +6396,8 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/SMD_single_row_plus_mounting_pad"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "90805f46-b132-4157-9e43-459a391efa41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "JST"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6662,7 +6410,7 @@
 			)
 		)
 		(property "Manf#" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6675,7 +6423,7 @@
 			)
 		)
 		(property "Digikey#" "455-S2B-PH-SM4-TBCT-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6700,14 +6448,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -4.06 -3.31)
-			(end -3.04 -3.31)
+			(start -2.34 4.51)
+			(end 2.34 4.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "087c1bea-fa55-431a-892c-f19cc5f127d8")
+			(uuid "2e0b5b0e-1d21-492e-a4a0-9134a3068692")
 		)
 		(fp_line
 			(start -4.06 0.94)
@@ -6720,14 +6468,14 @@
 			(uuid "6db6aa56-d9fc-4503-8f99-aba4b7542cf7")
 		)
 		(fp_line
-			(start -3.04 -3.31)
-			(end -3.04 -1.71)
+			(start 4.06 0.94)
+			(end 4.06 -3.31)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "68bf5d9c-f347-49d6-88f2-d4a2220eaa8f")
+			(uuid "8ae99784-c1ab-430a-96ef-53cdf1f68697")
 		)
 		(fp_line
 			(start -3.04 -1.71)
@@ -6740,16 +6488,6 @@
 			(uuid "9db32e44-4259-489b-88d7-ac3fbe8bc5c5")
 		)
 		(fp_line
-			(start -2.34 4.51)
-			(end 2.34 4.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2e0b5b0e-1d21-492e-a4a0-9134a3068692")
-		)
-		(fp_line
 			(start -1.76 -1.71)
 			(end -1.76 -4.6)
 			(stroke
@@ -6758,16 +6496,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f019f0bb-35c5-4f22-9516-12fb425d7676")
-		)
-		(fp_line
-			(start 3.04 -3.31)
-			(end 3.04 -1.71)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c4682064-d7aa-42cb-8b59-3761f2323cb2")
 		)
 		(fp_line
 			(start 3.04 -1.71)
@@ -6780,6 +6508,36 @@
 			(uuid "3b5286fb-c25d-4638-97ac-0d3f2ccb0d9c")
 		)
 		(fp_line
+			(start -4.06 -3.31)
+			(end -3.04 -3.31)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "087c1bea-fa55-431a-892c-f19cc5f127d8")
+		)
+		(fp_line
+			(start -3.04 -3.31)
+			(end -3.04 -1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "68bf5d9c-f347-49d6-88f2-d4a2220eaa8f")
+		)
+		(fp_line
+			(start 3.04 -3.31)
+			(end 3.04 -1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c4682064-d7aa-42cb-8b59-3761f2323cb2")
+		)
+		(fp_line
 			(start 4.06 -3.31)
 			(end 3.04 -3.31)
 			(stroke
@@ -6788,26 +6546,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b971c819-3b59-4c17-b557-b699af036eb5")
-		)
-		(fp_line
-			(start 4.06 0.94)
-			(end 4.06 -3.31)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8ae99784-c1ab-430a-96ef-53cdf1f68697")
-		)
-		(fp_line
-			(start -4.6 0.69)
-			(end -4.45 0.69)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "da646bb6-955b-4ad8-9dc4-e6381b1c1b40")
 		)
 		(fp_line
 			(start -4.6 5.1)
@@ -6820,36 +6558,6 @@
 			(uuid "a4520420-2632-4ae1-a909-b51e73a9f0c2")
 		)
 		(fp_line
-			(start -4.45 -3.7)
-			(end -2 -3.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "827d3c52-2fd5-4d1c-a0a1-3d33d69b0294")
-		)
-		(fp_line
-			(start -4.45 0.69)
-			(end -4.45 -3.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3b9f0fcc-1717-4896-b3ee-fbf7392e0ebf")
-		)
-		(fp_line
-			(start -2.1 4.9)
-			(end -2.1 5.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "076f91b2-c757-4161-a038-87af9362cadc")
-		)
-		(fp_line
 			(start -2.1 5.1)
 			(end -4.6 5.1)
 			(stroke
@@ -6858,56 +6566,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "f1f123f3-0f17-4bbf-aef6-9cd4d5896e01")
-		)
-		(fp_line
-			(start -2 -5.1)
-			(end 2 -5.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "87cbbfa2-ce50-4938-b7c1-47d5a751b5dd")
-		)
-		(fp_line
-			(start -2 -3.7)
-			(end -2 -5.1)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b7fc06cc-0206-4230-bdf0-0efa36561884")
-		)
-		(fp_line
-			(start 2 -5.1)
-			(end 2 -3.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e0f08b30-f288-4307-878e-89b8603bed41")
-		)
-		(fp_line
-			(start 2 -3.7)
-			(end 4.45 -3.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5cf23b14-4b58-40a7-be77-7adcf43bd6e4")
-		)
-		(fp_line
-			(start 2.1 4.9)
-			(end -2.1 4.9)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ce49f331-38fa-46bb-a29a-3259ec3afaf5")
 		)
 		(fp_line
 			(start 2.1 5.1)
@@ -6920,14 +6578,54 @@
 			(uuid "cfd87d26-df46-4c69-9032-abca3eb4c210")
 		)
 		(fp_line
-			(start 4.45 -3.7)
-			(end 4.45 0.69)
+			(start 4.6 5.1)
+			(end 2.1 5.1)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2b7dc0d2-d45a-4653-a35a-c1d63044f2ed")
+			(uuid "63d3e325-6b5c-4ec0-81d2-7abc171ecd62")
+		)
+		(fp_line
+			(start -2.1 4.9)
+			(end -2.1 5.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "076f91b2-c757-4161-a038-87af9362cadc")
+		)
+		(fp_line
+			(start 2.1 4.9)
+			(end -2.1 4.9)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce49f331-38fa-46bb-a29a-3259ec3afaf5")
+		)
+		(fp_line
+			(start -4.6 0.69)
+			(end -4.45 0.69)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "da646bb6-955b-4ad8-9dc4-e6381b1c1b40")
+		)
+		(fp_line
+			(start -4.45 0.69)
+			(end -4.45 -3.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3b9f0fcc-1717-4896-b3ee-fbf7392e0ebf")
 		)
 		(fp_line
 			(start 4.45 0.69)
@@ -6950,34 +6648,64 @@
 			(uuid "3b24d85b-c978-4676-b100-615c6a044ce4")
 		)
 		(fp_line
-			(start 4.6 5.1)
-			(end 2.1 5.1)
+			(start -4.45 -3.7)
+			(end -2 -3.7)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "63d3e325-6b5c-4ec0-81d2-7abc171ecd62")
+			(uuid "827d3c52-2fd5-4d1c-a0a1-3d33d69b0294")
 		)
 		(fp_line
-			(start -3.95 -3.2)
-			(end -3.95 4.4)
+			(start -2 -3.7)
+			(end -2 -5.1)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "d33d4bfe-60bb-4050-8976-9a94a1e41cc9")
+			(layer "F.CrtYd")
+			(uuid "b7fc06cc-0206-4230-bdf0-0efa36561884")
 		)
 		(fp_line
-			(start -3.95 -3.2)
-			(end -3.15 -3.2)
+			(start 2 -3.7)
+			(end 4.45 -3.7)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "5c8d782b-f97d-48fe-87b0-ee2331a04778")
+			(layer "F.CrtYd")
+			(uuid "5cf23b14-4b58-40a7-be77-7adcf43bd6e4")
+		)
+		(fp_line
+			(start 4.45 -3.7)
+			(end 4.45 0.69)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2b7dc0d2-d45a-4653-a35a-c1d63044f2ed")
+		)
+		(fp_line
+			(start -2 -5.1)
+			(end 2 -5.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "87cbbfa2-ce50-4938-b7c1-47d5a751b5dd")
+		)
+		(fp_line
+			(start 2 -5.1)
+			(end 2 -3.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0f08b30-f288-4307-878e-89b8603bed41")
 		)
 		(fp_line
 			(start -3.95 4.4)
@@ -6990,14 +6718,14 @@
 			(uuid "a4df33ef-e5b1-457b-ab55-76a82b8f48f8")
 		)
 		(fp_line
-			(start -3.15 -3.2)
-			(end -3.15 -1.6)
+			(start -1 -0.892893)
+			(end -0.5 -1.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8c21c8e3-766e-4b2b-ae4c-295e01f2972c")
+			(uuid "7c9810d3-a765-4687-9958-26482798f5bf")
 		)
 		(fp_line
 			(start -3.15 -1.6)
@@ -7020,14 +6748,44 @@
 			(uuid "d8561eb2-1e90-4486-afd8-784b42fe11b2")
 		)
 		(fp_line
-			(start -1 -0.892893)
-			(end -0.5 -1.6)
+			(start 3.15 -1.6)
+			(end 3.15 -3.2)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7c9810d3-a765-4687-9958-26482798f5bf")
+			(uuid "65ba3e9c-8ae5-4342-8d52-6071cc76599e")
+		)
+		(fp_line
+			(start -3.95 -3.2)
+			(end -3.95 4.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d33d4bfe-60bb-4050-8976-9a94a1e41cc9")
+		)
+		(fp_line
+			(start -3.95 -3.2)
+			(end -3.15 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5c8d782b-f97d-48fe-87b0-ee2331a04778")
+		)
+		(fp_line
+			(start -3.15 -3.2)
+			(end -3.15 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c21c8e3-766e-4b2b-ae4c-295e01f2972c")
 		)
 		(fp_line
 			(start 3.15 -3.2)
@@ -7040,16 +6798,6 @@
 			(uuid "7fee4aab-ff6f-4082-8140-8563d209bda0")
 		)
 		(fp_line
-			(start 3.15 -1.6)
-			(end 3.15 -3.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "65ba3e9c-8ae5-4342-8d52-6071cc76599e")
-		)
-		(fp_line
 			(start 3.95 -3.2)
 			(end 3.95 4.4)
 			(stroke
@@ -7060,7 +6808,7 @@
 			(uuid "c39106f1-2043-4ab3-97ae-2520a94303aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.5 0)
+			(at 0 1.5 90)
 			(layer "F.Fab")
 			(uuid "7a47fd89-d5b2-4200-bae8-42a368166ecd")
 			(effects
@@ -7071,7 +6819,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1 -2.85)
+			(at -1 -2.85 270)
 			(size 1 3.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7081,7 +6829,7 @@
 			(uuid "133f9b58-48ef-4793-a261-e41ff2457b28")
 		)
 		(pad "2" smd roundrect
-			(at 1 -2.85)
+			(at 1 -2.85 270)
 			(size 1 3.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7091,14 +6839,14 @@
 			(uuid "c54fc631-f34f-42ff-b665-82be55e37072")
 		)
 		(pad "MP" smd roundrect
-			(at -3.35 2.9)
+			(at -3.35 2.9 270)
 			(size 1.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.166667)
 			(uuid "cd5f0873-23a5-42f2-ab04-dc388cac819b")
 		)
 		(pad "MP" smd roundrect
-			(at 3.35 2.9)
+			(at 3.35 2.9 270)
 			(size 1.5 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.166667)
@@ -7164,18 +6912,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "073d1e7a-0e13-4e27-b439-53066e85f374")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7955,18 +7691,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c5d9015d-b684-48a9-b94e-b457ccdafa82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -8471,18 +8195,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a17c01a0-3049-44a5-87d9-f5c3b9524872")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DNP" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -8634,7 +8346,7 @@
 	(footprint "RTLS_UWB_Click:DFN200X300X65-9N"
 		(layer "F.Cu")
 		(uuid "933ae600-0206-4dce-996b-9bd989602ea7")
-		(at 170.3618 103.8368)
+		(at 121.7 105)
 		(property "Reference" "U101"
 			(at 0.40671 2.51656 0)
 			(layer "F.SilkS")
@@ -8970,18 +8682,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "262763bd-08ec-448b-a89b-e0d324667c64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -10532,18 +10232,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b00e4622-bf2f-4eed-b3ca-17da7541b87c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -10726,18 +10414,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0b098b7e-ec2a-4ce9-946f-d043f3449d51")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -10926,18 +10602,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "efc3ad96-cc8a-4984-81b6-ad94245f4880")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -11120,18 +10784,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f2789c2f-f461-42ac-9131-6b919b7f24f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11469,18 +11121,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5e50d35b-16f7-4e05-8812-95b5645c9b4c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -11666,18 +11306,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "68b3c7a2-9ba4-44d8-8474-5db2bbba8f2a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -11860,18 +11488,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c45fd2cf-d02c-44d1-8cb0-7f96884936d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -12284,18 +11900,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "package/gullwing"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ff4ca066-42b8-431c-942b-80f257c23dd7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Nexperia"
 			(at 0 0 0)
 			(unlocked yes)
@@ -12705,18 +12309,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "f20fa7ed-284d-44fa-b1c7-fc6434470bf8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "DNP" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -12912,18 +12504,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fe91e16d-6d80-49c7-8984-73aeef40f05d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13160,18 +12740,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fc5b1bc2-405f-45d0-8bd9-ec7834b1e44d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13740,18 +13308,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d9c66633-0fa6-410f-9518-a4a64d683e63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -14256,18 +13812,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0525ab28-c777-4661-89ad-a2b7537c14ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
@@ -14453,18 +13997,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1c7b1b15-4586-4f2c-b28f-f94d5f3ef272")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Samsung Electro-Mechanics"
 			(at 0 0 0)
 			(unlocked yes)
@@ -14589,6 +14121,308 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Package_SON:HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm"
+		(layer "F.Cu")
+		(uuid "dd651f8d-9b92-4627-89c2-885066133c0f")
+		(at 1.696216 1.275)
+		(descr "HUSON, 3 Pin, SOT1061 (Ref: https://assets.nexperia.com/documents/data-sheet/PMEG2020CPA.pdf)")
+		(tags "huson nolead SOT1061")
+		(property "Reference" "D101"
+			(at 0 -2.22 0)
+			(layer "F.SilkS")
+			(uuid "33780c7f-6c38-4ce4-b63d-f634f9e6c8ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PMEG3020CPA"
+			(at 0 1.95 0)
+			(layer "F.Fab")
+			(uuid "e9066fc5-5db8-4d4f-8a17-8c21a3345b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "018cd95b-0506-4347-9748-c626783765b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Schottky dual catodo comun 30V 2A SOT1061"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e6b3fe2-b8ca-416e-b4ba-188aa5a7a0d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manf" "Nexperia"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69c51de3-f1a9-483b-bae6-5ecdf84d6495")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manf#" "PMEG3020CPA,115"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3078523-00d9-4d3d-827c-8ef4ff1bfa1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey#" "1727-5205-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c217f04-4a2b-49c3-89c3-e1b2e9f89bfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6408b3b3-edbe-42fc-ba21-58e3c4983790/db09deab-a480-4ca2-aefa-80290a1859b1")
+		(sheetname "/10_Power/")
+		(sheetfile "sheets/10_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1 -1.2)
+			(end -1 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5efac289-7fe2-4c15-be29-a2fce619eeda")
+		)
+		(fp_line
+			(start 1 1.2)
+			(end -1 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "65e70a24-6bc0-49a3-9fc8-18601dd87c41")
+		)
+		(fp_poly
+			(pts
+				(xy -1.306216 -0.67) (xy -1.636216 -0.43) (xy -1.636216 -0.91) (xy -1.306216 -0.67)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "e5726f1f-ea21-41fd-b0b4-1cdf67e2975f")
+		)
+		(fp_line
+			(start -1.3 -1.25)
+			(end 1.3 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bbeafb6b-c371-411a-a7ff-542e123fe576")
+		)
+		(fp_line
+			(start -1.3 1.25)
+			(end -1.3 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1f8cd42a-a11d-4cbe-8660-d4e3bc9892d2")
+		)
+		(fp_line
+			(start 1.3 -1.25)
+			(end 1.3 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a77af950-d883-4ef8-a90a-3137264eaf57")
+		)
+		(fp_line
+			(start 1.3 1.25)
+			(end -1.3 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "060b5d12-db84-4f7c-9460-34fba6c4a9a7")
+		)
+		(fp_line
+			(start -1 -0.5)
+			(end -0.5 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6aa333d4-e306-40f6-8b8f-04961b3c7bba")
+		)
+		(fp_line
+			(start -1 1)
+			(end -1 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ae77dea1-25eb-4ddd-bf79-3df92201384a")
+		)
+		(fp_line
+			(start -0.5 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a7670c66-b048-47e8-b616-62097e174087")
+		)
+		(fp_line
+			(start 1 -1)
+			(end 1 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab144fb9-dfc5-4434-9000-ec1b311e80f9")
+		)
+		(fp_line
+			(start 1 1)
+			(end -1 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dab65328-ca09-4b0a-9559-1d6d44c0e4c1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b83f6398-9544-4468-a5bb-6065ff9c59e9")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at 0.25 -0.42 90)
+			(size 0.64 0.97)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "65c9c61b-6051-41a2-8a65-8f3ee92c3d2e")
+		)
+		(pad "" smd roundrect
+			(at 0.25 0.38 90)
+			(size 0.64 0.97)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "b20b9a8d-91aa-4325-b697-84b85f3efa49")
+		)
+		(pad "1" smd roundrect
+			(at -0.8 -0.65)
+			(size 0.5 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "VUSB")
+			(pinfunction "A_1")
+			(pintype "passive")
+			(uuid "afdc02ed-0400-4395-a218-5c0d25028329")
+		)
+		(pad "2" smd roundrect
+			(at -0.8 0.65)
+			(size 0.5 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "e5437362-d09e-4bd0-8e6a-f74d35082cb6")
+		)
+		(pad "3" smd rect
+			(at 0.25 0)
+			(size 1.1 1.6)
+			(layers "F.Cu" "F.Mask")
+			(net "VCC-CHG")
+			(pinfunction "K_3")
+			(pintype "passive")
+			(uuid "cf2b3ead-9367-46f6-8ee1-33be3776691c")
+		)
+		(pad "3" smd rect
+			(at 0.925 0)
+			(size 0.25 0.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "VCC-CHG")
+			(pinfunction "K_3")
+			(pintype "passive")
+			(uuid "ba1b6e8d-0dbd-4d4c-b816-74fd7bfec78d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14770,18 +14604,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0ce786ef-c2c0-49bd-a0b9-30e716939b07")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -14970,18 +14792,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "fiducial"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5df893a3-c934-42a1-b613-9bd53df5107b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/3759188e-118e-4f96-982f-56567917c92d")
 		(sheetname "/")
@@ -15088,18 +14898,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "fiducial"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "bdb8d45d-60a8-4a2f-b5b6-08a34634f200")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/51564f48-1456-428f-aa16-50a0ae2b2891")
 		(sheetname "/")
@@ -15203,18 +15001,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "94b65ed0-51af-4806-8a13-79c940d95d50")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15405,7 +15191,7 @@
 				)
 			)
 		)
-		(property "Description" "Pads SWD 2x3 1.27mm (DNP)"
+		(property "Description" "Conector SWD 2x3 1.27mm (Samtec FTS)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15416,11 +15202,38 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
+		(property "Manf" "Samtec"
 			(at 0 0 0)
-			(layer "F.SilkS")
+			(unlocked yes)
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "b88e6919-bfa4-48ff-8215-30634ac11727")
+			(uuid "eb4b5ea6-d560-4698-b4cb-666d8b3ca472")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manf#" "FTS-103-01-F-D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80c8b164-74ac-4634-8f8b-594b4b3c442e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey#" "SAM11230-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fae0fba-4514-4e60-9070-2d166c8c7aaf")
 			(effects
 				(font
 					(size 1 1)
@@ -15438,7 +15251,7 @@
 				(pins "1" "3" "5" "2" "4" "6")
 			)
 		)
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.18 -0.81)
@@ -15731,18 +15544,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1babdc39-06d4-4da8-89d9-7468698d3edb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Manf" "Murata"
 			(at 0 0 0)
 			(unlocked yes)
@@ -15925,18 +15726,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "90cb0536-c027-4d0f-b0be-024c7aff5acc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
