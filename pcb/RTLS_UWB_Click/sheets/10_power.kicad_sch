@@ -4130,7 +4130,7 @@
 		(uuid "f9b06194-7e2e-4735-9116-8047d509ae77")
 	)
 	(junction
-		(at 29.21 80.01)
+		(at 26.67 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd82ff6c-fea5-4ec4-bf10-463e787a1455")
@@ -4173,7 +4173,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 106.68 78.74)
+			(xy 110.49 80.01) (xy 110.49 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4240,16 +4240,6 @@
 			(type default)
 		)
 		(uuid "19b69be0-0b06-4510-9d72-dfcd5925f734")
-	)
-	(wire
-		(pts
-			(xy 29.21 80.01) (xy 34.29 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ad6e20b-0fca-4bd8-9d7a-da053547c0eb")
 	)
 	(wire
 		(pts
@@ -4863,16 +4853,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 80.01) (xy 29.21 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd651a8f-fb37-40de-acd1-05c964238273")
-	)
-	(wire
-		(pts
 			(xy 212.09 121.92) (xy 218.44 121.92)
 		)
 		(stroke
@@ -4883,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 114.3 78.74)
+			(xy 110.49 82.55) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4970,6 +4950,16 @@
 			(type default)
 		)
 		(uuid "e9aba8a7-c4c7-4d3c-ba68-07377be87fbd")
+	)
+	(wire
+		(pts
+			(xy 26.67 80.01) (xy 34.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd6b76f-84ee-49e4-91f2-00182ef2f754")
 	)
 	(wire
 		(pts
@@ -6741,7 +6731,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 106.68 76.2 0)
+		(at 110.49 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6751,7 +6741,7 @@
 		(dnp no)
 		(uuid "3efd1a3f-0764-43d2-8e9c-9e983477be10")
 		(property "Reference" "#PWR04"
-			(at 106.68 80.01 0)
+			(at 110.49 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6762,7 +6752,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 106.68 72.39 0)
+			(at 110.49 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6772,7 +6762,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 76.2 0)
+			(at 110.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6783,7 +6773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 76.2 0)
+			(at 110.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6794,7 +6784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 106.68 76.2 0)
+			(at 110.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,7 +7279,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 29.21 80.01 180)
+		(at 26.67 80.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7299,7 +7289,7 @@
 		(dnp no)
 		(uuid "6dbd04ae-0fe3-4299-a509-0a1ce8195858")
 		(property "Reference" "#FLG03"
-			(at 29.21 81.915 0)
+			(at 26.67 81.915 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7310,7 +7300,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 27.305 81.915 0)
+			(at 21.336 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7321,7 +7311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 80.01 0)
+			(at 26.67 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7332,7 +7322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 80.01 0)
+			(at 26.67 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7343,7 +7333,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 80.01 0)
+			(at 26.67 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7681,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 114.3 78.74 270)
+		(at 118.11 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7701,7 +7691,7 @@
 		(dnp no)
 		(uuid "8c0daca4-cd0e-43e6-91c8-71f196989d4e")
 		(property "Reference" "TP101"
-			(at 114.3 74.168 90)
+			(at 118.11 77.978 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7712,7 +7702,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 114.808 76.454 90)
+			(at 118.618 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7723,7 +7713,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 114.3 78.74 0)
+			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7734,7 +7724,7 @@
 			)
 		)
 		(property "Datasheet" "N/A (pad de prueba)"
-			(at 114.3 78.74 0)
+			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7745,7 +7735,7 @@
 			)
 		)
 		(property "Description" "Pad de prueba VBUS (sin componente)"
-			(at 114.3 78.74 0)
+			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,7 +7746,7 @@
 			)
 		)
 		(property "DNP" ""
-			(at 114.3 78.74 0)
+			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
